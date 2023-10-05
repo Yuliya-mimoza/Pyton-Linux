@@ -3,18 +3,26 @@
 # Повредить архив (например, отредактировав его в текстовом редакторе).
 # Написать негативные тесты работы архиватора с командами распаковки 'e'.
 
-from checks import checkout_negative
-import pytest
+from sshcheckers import ssh_checkout_negative
+from checks import getout
+import yaml
 
-folderin = '/home/yuliya/PycharmProjects/pythonProject/LinuxSeminar2/test'
-folderout = '/home/yuliya/PycharmProjects/pythonProject/LinuxSeminar2/out'
-folderext = '/home/yuliya/PycharmProjects/pythonProject/LinuxSeminar2/folder'
+with open('config.yaml') as f:
+    data = yaml.safe_load(f)
 
+class TestNegative:
 
-def test_step1():
-    assert func_search_negative(f'cd {folderout}; 7z e arch1.7z -o{folderext}', 'ERROR'), 'test_step1 FAIL'
+    def save_log(self, starttime, name):
+        with open(name, 'w') as f:
+            f.write(getout(f"journalctl --since '{starttime}'"))
+
+    def test_step1_negative(self, start_time):
+        self.save_log(start_time, "log1_negative.txt")
+        assert ssh_checkout_negative(data['ip'], data['user'], data['passwd'],
+                                     f"cd {data['folderout']}; 7z e ar2.7z -o{data['folderext']}",
+                                     'ERROR'), 'test_step1_negative FAIL'
 
 #
 
-if __name__ == '__main__':
-    pytest.main(['-vv'])
+# if __name__ == '__main__':
+#     pytest.main(['-vv'])

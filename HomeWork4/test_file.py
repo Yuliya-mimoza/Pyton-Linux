@@ -2,7 +2,7 @@
 # 'd'(удаление из архива) и 'u' (обновление архива).
 # Вынести в отдельные переменные пути и папки с файлами,
 # с архивами и с распакованными файлами. Выполнить тесты с ключом '-v'.
-import pytest
+
 import yaml
 from sshcheckers import ssh_checkout, ssh_getout, upload_files
 from checks import getout

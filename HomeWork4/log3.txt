@@ -1,9 +1,14 @@
-окт 05 22:33:49 yuliya-VirtualBox sshd[11979]: pam_unix(sshd:session): session closed for user user2
-окт 05 22:33:49 yuliya-VirtualBox systemd[1]: session-129.scope: Deactivated successfully.
-окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: Session 129 logged out. Waiting for processes to exit.
-окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: Removed session 129.
-окт 05 22:33:49 yuliya-VirtualBox sshd[12022]: Accepted password for user2 from 127.0.0.1 port 48630 ssh2
-окт 05 22:33:49 yuliya-VirtualBox sshd[12022]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
-окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: New session 130 of user user2.
-окт 05 22:33:49 yuliya-VirtualBox snapd-desktop-i[11752]: Detected new session 130 at /org/freedesktop/login1/session/_3130
-окт 05 22:33:49 yuliya-VirtualBox systemd[1]: Started Session 130 of User user2.
+окт 05 22:46:53 yuliya-VirtualBox systemd-logind[634]: Removed session 172.
+окт 05 22:46:53 yuliya-VirtualBox audit[604]: USER_AVC pid=604 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.13" mask="receive" pid=12633 label="snap.firefox.firefox" peer_pid=634 peer_label="unconfined"
+                                                  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+окт 05 22:46:53 yuliya-VirtualBox systemd-logind[634]: New session 173 of user user2.
+окт 05 22:46:53 yuliya-VirtualBox audit[604]: USER_AVC pid=604 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.13" mask="receive" pid=12633 label="snap.firefox.firefox" peer_pid=634 peer_label="unconfined"
+                                                  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+окт 05 22:46:53 yuliya-VirtualBox snapd-desktop-i[15535]: Detected new session 173 at /org/freedesktop/login1/session/_3173
+окт 05 22:46:53 yuliya-VirtualBox systemd[1]: Started Session 173 of User user2.
+окт 05 22:46:53 yuliya-VirtualBox sshd[15834]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:46:53 yuliya-VirtualBox systemd[1]: session-173.scope: Deactivated successfully.
+окт 05 22:46:53 yuliya-VirtualBox systemd-logind[634]: Session 173 logged out. Waiting for processes to exit.
+окт 05 22:46:53 yuliya-VirtualBox systemd-logind[634]: Removed session 173.
+окт 05 22:46:53 yuliya-VirtualBox audit[604]: USER_AVC pid=604 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.13" mask="receive" pid=12633 label="snap.firefox.firefox" peer_pid=634 peer_label="unconfined"
+                                                  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
