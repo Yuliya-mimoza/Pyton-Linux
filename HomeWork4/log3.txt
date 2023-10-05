@@ -1,0 +1,9 @@
+окт 05 22:33:49 yuliya-VirtualBox sshd[11979]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:49 yuliya-VirtualBox systemd[1]: session-129.scope: Deactivated successfully.
+окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: Session 129 logged out. Waiting for processes to exit.
+окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: Removed session 129.
+окт 05 22:33:49 yuliya-VirtualBox sshd[12022]: Accepted password for user2 from 127.0.0.1 port 48630 ssh2
+окт 05 22:33:49 yuliya-VirtualBox sshd[12022]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:49 yuliya-VirtualBox systemd-logind[634]: New session 130 of user user2.
+окт 05 22:33:49 yuliya-VirtualBox snapd-desktop-i[11752]: Detected new session 130 at /org/freedesktop/login1/session/_3130
+окт 05 22:33:49 yuliya-VirtualBox systemd[1]: Started Session 130 of User user2.

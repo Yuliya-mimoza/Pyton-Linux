@@ -1,0 +1,117 @@
+окт 05 22:33:47 yuliya-VirtualBox sshd[11556]: Accepted password for user2 from 127.0.0.1 port 48562 ssh2
+окт 05 22:33:47 yuliya-VirtualBox sshd[11556]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Created slice User Slice of UID 1001.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Starting User Runtime Directory /run/user/1001...
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: New session 122 of user user2.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Finished User Runtime Directory /run/user/1001.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Starting User Manager for UID 1001...
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: pam_unix(systemd-user:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Queued start job for default target Main User Target.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Created slice User Application Slice.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Created slice User Background Tasks Slice.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Created slice User Core Session Slice.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Pending report trigger for Ubuntu Report.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Reached target Paths.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Reached target Timers.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting D-Bus User Message Bus Socket...
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on GnuPG network certificate management daemon.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on GnuPG cryptographic agent and passphrase cache.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on PipeWire Multimedia System Socket.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on debconf communication socket.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on Sound System.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on REST API socket for snapd user session agent.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on Speech Dispatcher Socket.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Listening on D-Bus User Message Bus Socket.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Reached target Sockets.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Reached target Basic System.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Started User Manager for UID 1001.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started PipeWire Multimedia Service.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Started Session 122 of User user2.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started PipeWire Media Session Manager.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Sound Service...
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Tracker metadata extractor...
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started D-Bus User Message Bus.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] AppArmor D-Bus mediation is enabled
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox pipewire[11568]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 05 22:33:47 yuliya-VirtualBox pipewire[11568]: mod.rt: could not set nice-level to -11: Permission denied
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1001 pid=11572 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.3' (uid=1001 pid=11571 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.Daemon'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting flatpak document portal service...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.4' (uid=1001 pid=11636 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting sandboxed app permission store...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started sandboxed app permission store.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.freedesktop.portal.Documents'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started flatpak document portal service.
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox pipewire-media-session[11569]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 05 22:33:47 yuliya-VirtualBox pipewire-media-session[11569]: mod.rt: could not make thread 11614 realtime using RTKit: Permission denied
+окт 05 22:33:47 yuliya-VirtualBox pipewire[11568]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 05 22:33:47 yuliya-VirtualBox pipewire[11568]: mod.rt: could not make thread 11674 realtime using RTKit: Permission denied
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1001 pid=11572 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox sshd[11556]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: session-122.scope: Deactivated successfully.
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: Session 122 logged out. Waiting for processes to exit.
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: Removed session 122.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[604]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.685' (uid=1001 pid=11570 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Condition check resulted in Bluetooth service being skipped.
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Tracker file system data miner...
+окт 05 22:33:47 yuliya-VirtualBox sshd[11661]: Accepted password for user2 from 127.0.0.1 port 48564 ssh2
+окт 05 22:33:47 yuliya-VirtualBox sshd[11661]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: New session 124 of user user2.
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Started Session 124 of User user2.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.9' (uid=1001 pid=11702 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox snapd-desktop-i[11752]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+окт 05 22:33:47 yuliya-VirtualBox snapd-desktop-i[11752]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service - disk device monitor...
+окт 05 22:33:47 yuliya-VirtualBox snapd-desktop-i[11752]: Checking session /org/freedesktop/login1/session/_3124...
+окт 05 22:33:47 yuliya-VirtualBox snapd-desktop-i[11752]: Checking session /org/freedesktop/login1/session/_32...
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service - disk device monitor.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.9' (uid=1001 pid=11702 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox sshd[11661]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: session-124.scope: Deactivated successfully.
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service - digital camera monitor...
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: Session 124 logged out. Waiting for processes to exit.
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: Removed session 124.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service - digital camera monitor.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.9' (uid=1001 pid=11702 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service - Apple File Conduit monitor...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service - Apple File Conduit monitor.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.9' (uid=1001 pid=11702 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.9' (uid=1001 pid=11702 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating service name='org.gnome.OnlineAccounts' requested by ':1.14' (uid=1001 pid=11791 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox sshd[11776]: Accepted password for user2 from 127.0.0.1 port 48574 ssh2
+окт 05 22:33:47 yuliya-VirtualBox sshd[11776]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:47 yuliya-VirtualBox goa-daemon[11795]: goa-daemon version 3.44.0 starting
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: New session 125 of user user2.
+окт 05 22:33:47 yuliya-VirtualBox snapd-desktop-i[11752]: Detected new session 125 at /org/freedesktop/login1/session/_3125
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Activating service name='org.gnome.Identity' requested by ':1.15' (uid=1001 pid=11795 comm="/usr/libexec/goa-daemon " label="unconfined")
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gnome.OnlineAccounts'
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+окт 05 22:33:47 yuliya-VirtualBox systemd[11561]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+окт 05 22:33:47 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.gnome.Identity'
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: Started Session 125 of User user2.
+окт 05 22:33:47 yuliya-VirtualBox rtkit-daemon[780]: Supervising 6 threads of 3 processes of 2 users.
+окт 05 22:33:47 yuliya-VirtualBox sshd[11776]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:47 yuliya-VirtualBox systemd[1]: session-125.scope: Deactivated successfully.
+окт 05 22:33:47 yuliya-VirtualBox systemd-logind[634]: Session 125 logged out. Waiting for processes to exit.

@@ -1,0 +1,22 @@
+окт 05 22:33:48 yuliya-VirtualBox dbus-daemon[11589]: [session uid=1001 pid=11589] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+окт 05 22:33:48 yuliya-VirtualBox systemd[11561]: Started Tracker file system data miner.
+окт 05 22:33:48 yuliya-VirtualBox systemd[11561]: Started Tracker metadata extractor.
+окт 05 22:33:48 yuliya-VirtualBox systemd[11561]: Reached target Main User Target.
+окт 05 22:33:48 yuliya-VirtualBox systemd[11561]: Startup finished in 949ms.
+окт 05 22:33:48 yuliya-VirtualBox sshd[11848]: Accepted password for user2 from 127.0.0.1 port 48580 ssh2
+окт 05 22:33:48 yuliya-VirtualBox sshd[11848]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:48 yuliya-VirtualBox systemd-logind[634]: New session 126 of user user2.
+окт 05 22:33:48 yuliya-VirtualBox snapd-desktop-i[11752]: Detected new session 126 at /org/freedesktop/login1/session/_3126
+окт 05 22:33:48 yuliya-VirtualBox systemd[1]: Started Session 126 of User user2.
+окт 05 22:33:48 yuliya-VirtualBox sshd[11848]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:48 yuliya-VirtualBox systemd[1]: session-126.scope: Deactivated successfully.
+окт 05 22:33:48 yuliya-VirtualBox systemd-logind[634]: Session 126 logged out. Waiting for processes to exit.
+окт 05 22:33:48 yuliya-VirtualBox systemd-logind[634]: Removed session 126.
+окт 05 22:33:48 yuliya-VirtualBox sshd[11892]: Accepted password for user2 from 127.0.0.1 port 48596 ssh2
+окт 05 22:33:48 yuliya-VirtualBox sshd[11892]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+окт 05 22:33:48 yuliya-VirtualBox systemd-logind[634]: New session 127 of user user2.
+окт 05 22:33:48 yuliya-VirtualBox snapd-desktop-i[11752]: Detected new session 127 at /org/freedesktop/login1/session/_3127
+окт 05 22:33:48 yuliya-VirtualBox systemd[1]: Started Session 127 of User user2.
+окт 05 22:33:48 yuliya-VirtualBox sshd[11892]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:48 yuliya-VirtualBox systemd[1]: session-127.scope: Deactivated successfully.
+окт 05 22:33:48 yuliya-VirtualBox systemd-logind[634]: Session 127 logged out. Waiting for processes to exit.

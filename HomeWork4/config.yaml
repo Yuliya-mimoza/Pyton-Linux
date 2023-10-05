@@ -1,0 +1,10 @@
+folderin: /home/user2/in
+folderout: /home/user2/out
+folderext: /home/user2/folder
+count: 5
+ip: 0.0.0.0
+user: user2
+passwd: 'vjqgfhjkm2'
+bs: 1M
+pkgname: p7zip-full
+type: 7zip

@@ -1,0 +1,4 @@
+окт 05 22:33:50 yuliya-VirtualBox sshd[12151]: pam_unix(sshd:session): session closed for user user2
+окт 05 22:33:50 yuliya-VirtualBox systemd-logind[634]: Session 133 logged out. Waiting for processes to exit.
+окт 05 22:33:50 yuliya-VirtualBox systemd[1]: session-133.scope: Deactivated successfully.
+окт 05 22:33:50 yuliya-VirtualBox systemd-logind[634]: Removed session 133.
